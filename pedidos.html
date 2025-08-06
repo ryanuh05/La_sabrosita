@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedidos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Administración</h2>
+    <ul>
+      <li><a href="mesas.html">Mesas</a></li>
+      <li><a href="facturacion.html">Facturación</a></li>
+      <li><a href="pedidos.html">Pedidos</a></li>
+      <li><a href="index.html">Menu Principal</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <section>
+      <h1>Pedidos</h1>
+      <button onclick="alert('Pedido agregado')">Agregar Pedido</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Mesa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" value="Hamburguesa"></td>
+            <td><input type="number" value="2"></td>
+            <td><input type="number" value="1"></td>
+          </tr>
+          <tr>
+            <td><input type="text" value="Refresco"></td>
+            <td><input type="number" value="3"></td>
+            <td><input type="number" value="2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

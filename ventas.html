@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ventas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Administración</h2>
+    <ul>
+      <li><a href="reportes.html">Reportes</a></li>
+      <li><a href="contabilidad.html">Contabilidad</a></li>
+      <li><a href="ventas.html" class="active">Ventas</a></li>
+      <li><a href="index.html">Menu Principal</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <section>
+      <h1>Reporte de Ventas</h1>
+      <button onclick="alert('Reporte guardado')">Guardar cambios</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio unitario</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="date" value="2025-08-06"></td>
+            <td><input type="text" value="Manzanas"></td>
+            <td><input type="number" value="15"></td>
+            <td><input type="number" value="350"></td>
+            <td><input type="number" value="5250"></td>
+          </tr>
+          <tr>
+            <td><input type="date" value="2025-08-05"></td>
+            <td><input type="text" value="Banano"></td>
+            <td><input type="number" value="10"></td>
+            <td><input type="number" value="200"></td>
+            <td><input type="number" value="2000"></td>
+          </tr>
+          <tr>
+            <td><input type="date" value="2025-08-04"></td>
+            <td><input type="text" value="Papaya"></td>
+            <td><input type="number" value="8"></td>
+            <td><input type="number" value="500"></td>
+            <td><input type="number" value="4000"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

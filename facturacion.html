@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Facturación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Administración</h2>
+    <ul>
+      <li><a href="mesas.html">Mesas</a></li>
+      <li><a href="facturacion.html">Facturación</a></li>
+      <li><a href="pedidos.html">Pedidos</a></li>
+      <li><a href="index.html">Menu Principal</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <section>
+      <h1>Facturación</h1>
+      <button onclick="alert('Factura generada')">Generar Factura</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Cliente</th>
+            <th>Monto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="date" value="2024-08-06"></td>
+            <td><input type="text" value="Juan Pérez"></td>
+            <td><input type="number" value="15000"></td>
+          </tr>
+          <tr>
+            <td><input type="date" value="2024-08-05"></td>
+            <td><input type="text" value="Ana López"></td>
+            <td><input type="number" value="8700"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
